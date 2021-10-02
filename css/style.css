@@ -1,0 +1,89 @@
+/* 
+    TABLE CONTENT
+    - IMPORTS
+    - GLOBAL
+    - HEADER
+    - FOOTER
+    - MAIN-CONTENT
+    - IMG
+    - BORDER
+*/
+
+/* IMPORTS
+---------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* GLOBAL
+---------------------------------------------------------------------- */
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #2d3436;
+}
+body {
+    margin: 0;
+}
+
+/* HEADER
+---------------------------------------------------------------------- */
+header {
+    margin: 20px 50px 0;
+}
+header .logo {
+    margin-bottom: 20px;
+}
+header .logo h1 {
+    margin: 0;
+    color: #e84393;
+}
+header .logo p {
+    margin: 0;
+}
+header .navbar {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+}
+header .navbar a {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #2d3436;
+    border-radius: 10px;
+}
+header .navbar a:hover {
+    background-color: #e84393;
+    color: #fff;
+}
+header .navbar a.active {
+    background-color: #e84393;
+    color: #fff;
+}
+
+/* FOOTER
+---------------------------------------------------------------------- */
+footer {
+    background-color: #2d3436;
+    color: #fff;
+    padding: 70px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* MAIN-CONTENT
+---------------------------------------------------------------------- */
+.main-content {
+    margin: 30px 50px 50px;
+}
+
+/* IMG
+---------------------------------------------------------------------- */
+.img-responsive {
+    height: auto;
+    max-width: 100%;
+}
+
+/* BORDER
+---------------------------------------------------------------------- */
+.rounded {
+    border-radius: 10px;
+}
