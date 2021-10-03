@@ -7,6 +7,9 @@
     - MAIN-CONTENT
     - IMG
     - BORDER
+    - FEATURES
+    - TEAMS
+    - CUSTOMERS
 */
 
 /* IMPORTS
@@ -74,6 +77,12 @@ footer {
 .main-content {
     margin: 30px 50px 50px;
 }
+.main-content section {
+    margin-bottom: 50px;
+}
+.main-content section:last-child {
+    margin-bottom: 0;
+}
 
 /* IMG
 ---------------------------------------------------------------------- */
@@ -86,4 +95,70 @@ footer {
 ---------------------------------------------------------------------- */
 .rounded {
     border-radius: 10px;
+}
+
+/* FEATURES
+---------------------------------------------------------------------- */
+.features {
+    display: flex;
+}
+.features div {
+    margin: 0 20px;
+    padding: 0 20px;
+    background-color: #dfe6e9;
+    border-radius: 10px;
+}
+.features div:first-child {
+    margin-left: 0;
+}
+.features div:last-child {
+    margin-right: 0;
+}
+.features div h2 {
+    color: #e84393;
+}
+
+/* TEAMS
+---------------------------------------------------------------------- */
+.teams {
+    display: flex;
+}
+.teams .team-item {
+    margin: 0 20px;
+    padding: 30px 20px;
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+.teams .team-item:first-child {
+    margin-left: 0;
+}
+.teams .team-item:last-child {
+    margin-right: 0;
+}
+.teams .team-item img {
+    border-radius: 50%;
+}
+.teams .team-item .team-item-detail .name {
+    color: #e84393;
+    font-weight: bold;
+    font-size: 22px;
+    display: block;
+}
+.teams .team-item .team-item-detail .designation {
+    font-size: 16px;
+    display: block;
+    font-style: italic;
+}
+.teams .team-item .team-item-detail p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* CUSTOMERS
+---------------------------------------------------------------------- */
+.customers {
+    display: flex;
+    justify-content: space-between;
 }
